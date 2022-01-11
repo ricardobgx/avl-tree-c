@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1641943226 source:/home/ricardo/Documentos/GitHub/avl-tree-c/main.c
+	<stdio.h>
+	<stdlib.h>
+	"avltree.h"
+
+1641942965 /home/ricardo/Documentos/GitHub/avl-tree-c/avltree.h
+
