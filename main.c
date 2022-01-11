@@ -4,6 +4,6 @@
 
 int main(int argc, char *argv[])
 {
-    AvlTree *tree = create_avl_tree();
+    avl_tree_t *tree = create_avl_tree();
     return 0;
 }

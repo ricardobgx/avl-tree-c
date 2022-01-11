@@ -5,8 +5,8 @@ typedef struct avl_tree {
     struct avl_tree *left_child;
     struct avl_tree *right_child;
     int num;
-} AvlTree;
+} avl_tree_t;
 
-AvlTree *create_avl_tree();
+avl_tree_t *create_avl_tree();
 
 #endif // AVLTREE_H_INCLUDED

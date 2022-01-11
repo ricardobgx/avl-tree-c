@@ -1,6 +1,6 @@
 #include "avltree.h"
 #include <stdlib.h>
 
-AvlTree *create_avl_tree() {
+avl_tree_t *create_avl_tree() {
     return NULL;
 }
