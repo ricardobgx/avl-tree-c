@@ -78,3 +78,26 @@ void printTree(AvlTree *tree)
 
   printf(")");
 }
+
+int balancingFactor(AvlTree *tree)
+{
+  return treeHeight(tree->right_child) - treeHeight(tree->left_child);
+}
+
+int treeHeight(AvlTree *tree)
+{
+  if (tree == NULL)
+  {
+    return 0;
+  }
+
+  int left_child_height = treeHeight(tree->left_child);
+  int right_child_height = treeHeight(tree->right_child);
+
+  if (left_child_height > right_child_height)
+  {
+    return left_child_height + 1;
+  }
+
+  return right_child_height + 1;
+}
